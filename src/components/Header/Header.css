@@ -1,0 +1,36 @@
+.typed-css {
+    color: rgb(221, 72, 92);
+    font-size: 2rem;
+}
+.ul-css {
+    white-space: nowrap;
+    height: 1em;
+    width: 100%;
+    padding-left: 0px;
+}
+
+.ul-css li {
+    display: inline;
+    padding: 10px;
+
+}
+
+.linksocial {
+    text-transform: none !important;
+}
+
+.linksocial a{
+    cursor: pointer;
+    z-index: 4;
+    font-size: 22px;
+    color: #1e1e1e;
+    text-decoration: none;
+  }
+  .linksocial a:hover{
+    border-bottom: 3px solid #DD485C; 
+    cursor: pointer;
+    z-index: 4;
+    font-size: 22px;
+    color: #1e1e1e;
+    text-decoration: none;
+  }

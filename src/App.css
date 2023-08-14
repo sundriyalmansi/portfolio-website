@@ -90,21 +90,7 @@ body{
   margin-top: 5em;
   z-index: 4;
 }
-.linksocial a{
-  cursor: pointer;
-  z-index: 4;
-  font-size: 22px;
-  color: #1e1e1e;
-  text-decoration: none;
-}
-.linksocial a:hover{
-  border-bottom: 3px solid #DD485C; 
-  cursor: pointer;
-  z-index: 4;
-  font-size: 22px;
-  color: #1e1e1e;
-  text-decoration: none;
-}
+
 .breadcrumb{
   z-index: 4;
   font-size: 22px;
