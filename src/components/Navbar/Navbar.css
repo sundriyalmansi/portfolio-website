@@ -1,0 +1,25 @@
+.nav a .nav-link{
+    letter-spacing: 0.03rem;
+    cursor: pointer;
+  }
+  nav ul li{
+    text-transform: uppercase;
+  }
+  .navbar {
+    width: 100%;
+    position: fixed!important;
+    z-index: 2;
+  }
+  .navbar-nav > li > a {
+    margin-right: 0.75rem;
+    margin-left: 0.75rem;
+    color: black !important;
+    font-size: 1.1em;
+    font-weight: 500;
+  }
+  
+  .navbar {
+    background-color: #fff!important;
+    font-family: 'Poppins', sans-serif;
+
+  }
