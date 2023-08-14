@@ -1,6 +1,8 @@
 import './App.css';
+import "bootstrap/dist/css/bootstrap.min.css";
 import Header from "./components/Header/Header";
 import Navbar from "./components/Navbar/Navbar";
+import Work from "./components/Work/Work";
 
 function App() {
   return (
@@ -8,7 +10,7 @@ function App() {
       <div className="app">
         <Navbar/>
         <Header/>
-        {/* <Work /> */}
+        <Work />
         {/* <Projects/> */}
         {/* <Skills/> */}
         {/* <Timeline/> */}
