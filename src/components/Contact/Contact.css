@@ -1,0 +1,40 @@
+.contactsection {
+    background: linear-gradient(rgba(0,0,0,.89),rgba(0,0,0,.4)),url(/src/Images/bgideas.jpeg) no-repeat 50%;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+.title{
+        display: inline-block;
+        font-size: 3rem;
+        padding-bottom: 10px;
+        position: relative;
+        color: #fff;
+        font-family: 'Vidaloka', serif;
+}
+.contact{
+    justify-content: center;
+    text-align: center;
+}
+.contactColTitle{
+    color: white;
+}
+.item{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.iconsizing{
+    color: #DD485C;
+    width: 3em;
+    height: 3em;
+}
+.contactColTitle{
+    text-align: left;
+    padding-left: 1em;
+}
+.contactItems{
+    margin-top: 4em;
+    margin-bottom: 1em;
+}
