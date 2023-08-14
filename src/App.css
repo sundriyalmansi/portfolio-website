@@ -1,5 +1,19 @@
-.App {
-  text-align: center;
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vidaloka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;1,100;1,200;1,300&display=swap');
+.app{
+  height: 100vh;
+  overflow-x: hidden;
+  font-family: 'Josefin Sans', sans-serif;
+  scroll-behavior: smooth;
+  background-color: #131414;
+}
+.app::-webkit-scrollbar {
+  display: none;
+}
+body{
+  font-family: "Josefin Sans",sans-serif;
 }
 
 .App-logo {
@@ -11,6 +25,9 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+html {
+  scroll-behavior: smooth;
 }
 
 .App-header {
@@ -35,4 +52,111 @@
   to {
     transform: rotate(360deg);
   }
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+body{
+  font-family: "Josefin Sans",sans-serif;
+}
+
+.menuitem{
+  justify-content: flex-end;
+}
+.header-wraper{
+  position: relative;
+  background-color: #fff;
+  /* background-image: url(/src/Images/bgideas3.jpg); */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+.main-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+  text-align: left;
+  padding: 2em;
+  z-index: 1;
+}
+.vertical-center {
+  margin-left: 4rem;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.socialmedialinks{
+  margin-top: 5em;
+  z-index: 4;
+}
+.linksocial a{
+  cursor: pointer;
+  z-index: 4;
+  font-size: 22px;
+  color: #1e1e1e;
+  text-decoration: none;
+}
+.linksocial a:hover{
+  border-bottom: 3px solid #DD485C; 
+  cursor: pointer;
+  z-index: 4;
+  font-size: 22px;
+  color: #1e1e1e;
+  text-decoration: none;
+}
+.breadcrumb{
+  z-index: 4;
+  font-size: 22px;
+}
+.typed-text{
+  font-size: 5rem;
+  color: #1e1e1e;
+  font-family: 'Vidaloka', serif;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 121px;
+}
+.starttext{
+  color: #AFAFAF;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.endtext{
+  color: #1e1e1e;
+  font-size: 2.7em;
+  font-weight: 300;
+  margin-top: 2em;
+  line-height: 38px;
+  font-family: 'Mulish', sans-serif;
+}
+.dark-theme{
+  background-color: #D9D4DB !important;
+  z-index: 2;
+}
+.downloadcv{
+  border: 1px solid #1e1e1e !important;
+  text-transform: uppercase;
+  border-radius: 0%;
+  padding: 1rem 1rem 1rem 1rem;
+  color: #1e1e1e !important;
+  width: 160px;
+  font-size: 18px;
+  margin-top: 2rem;
+  z-index: 3;
+  text-align: center;
+  line-height: 21px;
+  width: 185px;
+  height: 42px;
+}
+.downloadcv:hover{
+  background-color: #DD485C !important;
+  border: 1px solid #DD485C !important;
+  color: #ffff !important;
+
+}
+.tsparticles-canvas-el {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
 }
