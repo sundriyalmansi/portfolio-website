@@ -4,6 +4,7 @@ import Header from "./components/Header/Header";
 import Navbar from "./components/Navbar/Navbar";
 import Work from "./components/Work/Work";
 import Skills from './components/Skills/Skills';
+import Timeline from './components/Timeline/Timeline';
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
         <Work />
         {/* <Projects/> */}
         <Skills/>
-        {/* <Timeline/> */}
+        <Timeline/>
         
 
         {/* <Contact/> */}
