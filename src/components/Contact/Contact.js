@@ -40,7 +40,7 @@ const Contact = () => {
                                 </div>
                                 <div className="content">
                                     <p className="contactColTitle">Address</p>
-                                    <p className="contactColTitle"> New Orleans, Louisiana</p>
+                                    <p className="contactColTitle"> Dallas, Texas</p>
                                 </div>
                             </div>  
                         </div>

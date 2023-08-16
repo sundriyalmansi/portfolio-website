@@ -1,6 +1,44 @@
 .typed-css {
-    color: rgb(221, 72, 92);
-    font-size: 2rem;
+    font-size: 3rem;
+    display : inline-block;
+    font-weight: 600;
+}
+.hand{
+    width: 2.2rem;
+}
+.orange{
+    color: #F48C51;
+}
+
+.socialmedialinks{
+    margin: 2rem 0rem;
+}
+
+.downloadcv{
+    border: 1px solid #1e1e1e !important;
+    text-transform: uppercase;
+    border-radius: 0%;
+    padding: 0.5rem;
+    color: #1e1e1e !important;
+    font-size: 0.8rem;
+    margin-top: 2rem;
+    z-index: 3;
+    min-width: 200px;
+    max-width: 200px;
+    text-align: center;
+    font-weight: 600;
+    line-height: 21px;
+    height: 42px;
+  }
+  .downloadcv:hover{
+    background-color: #DD485C !important;
+    border: 1px solid #DD485C !important;
+    color: #ffff !important;
+  
+  }
+.desc{
+    font-weight: 700;
+    line-height: 2rem;
 }
 .ul-css {
     white-space: nowrap;
@@ -11,10 +49,13 @@
 
 .ul-css li {
     display: inline;
-    padding: 10px;
+    padding: 10px 25px 10px 0px;
+    font-weight: 600;
 
 }
-
+.ul-css li a{
+    color: #0044cc;
+}
 .linksocial {
     text-transform: none !important;
 }

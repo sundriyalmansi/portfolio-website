@@ -86,15 +86,8 @@ body{
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
-.socialmedialinks{
-  margin-top: 5em;
-  z-index: 4;
-}
 
-.breadcrumb{
-  z-index: 4;
-  font-size: 22px;
-}
+
 .typed-text{
   font-size: 5rem;
   color: #1e1e1e;
@@ -119,27 +112,8 @@ body{
   background-color: #D9D4DB !important;
   z-index: 2;
 }
-.downloadcv{
-  border: 1px solid #1e1e1e !important;
-  text-transform: uppercase;
-  border-radius: 0%;
-  padding: 1rem 1rem 1rem 1rem;
-  color: #1e1e1e !important;
-  width: 160px;
-  font-size: 18px;
-  margin-top: 2rem;
-  z-index: 3;
-  text-align: center;
-  line-height: 21px;
-  width: 185px;
-  height: 42px;
-}
-.downloadcv:hover{
-  background-color: #DD485C !important;
-  border: 1px solid #DD485C !important;
-  color: #ffff !important;
 
-}
+
 .tsparticles-canvas-el {
   position: absolute;
   height: 100vh;
