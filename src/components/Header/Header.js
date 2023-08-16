@@ -49,7 +49,7 @@ const Header = () => {
                     </ul>
                     </nav>
                 </div>
-                <div>
+                <div className="intro-paragragh">
                   <h5 className="desc">I have eye an for <span className="orange">innovative</span>  and creative <span className="orange">problem solving</span> and developing amazing user experiences which makes customers and users satisfied when they are using products.
                     <p className="mt-3">I'm currently completing the Google UX Design Professional Certificate
                     </p>

@@ -13,14 +13,14 @@ const Work = () => {
                         {/* <img src={logo} className='projimg'
                         alt="header"/> */}
                     </div>
-                    <h3 className='left-h2'>CommonPaths, GIS Application for Transportation Company</h3>
+                    <h4 className='left-h2'>CommonPaths</h4>
+                    <h5>GIS Application for Transportation Company</h5>
                     <p className='p-date'>Use Case: UX , UI, Branding, Leadership</p>
                     <div className='p-text'>
                         <ul>
                             <li>Synthesized user insights into feasible design decisions, deployed a MVP within 6 months.</li>
                             <li> As Lead UX Designer responsible for entire user-friendly interface.</li> 
                             <li> Designed wireframes for 40 screens for desktop and tablet devices.</li>
-                            <li> Developed functional responsive UI components </li>
                         </ul>
                     </div>
                     <div className='card-footer-btn'>
@@ -33,7 +33,8 @@ const Work = () => {
                         {/* <img src={ddm} className='projimg'
                         alt="header"/> */}
                     </div>
-                    <h3 className='left-h2'>Demand Decision Management, DXC Corporate App</h3>
+                    <h3 className='left-h2'>Demand Decision Management</h3>
+                    <h5>DXC Corporate App</h5>
                     <p className='p-date'>Use Case: UX , UI, Branding, Leadership</p>
                     <div className='p-text'>
                         <ul>
@@ -54,14 +55,13 @@ const Work = () => {
                         {/* <img src={redesign} className='projimg'
                         alt="header"/> */}
                     </div>
-                    <h2 className='left-h2'>Health Care Application Redesign</h2>
+                    <h3 className='left-h2'>Health Care Application Redesign</h3>
+                    <h5>MG Guidelines</h5>
                     <p className='p-date'>Use Case: UX , UI, Branding, Leadership</p>
                     <div className='p-text'>
                         <ul>
                             <li>Improved end-to-end experience of Guardian Life Insurance Internal Platform by conducting usability reviews, identifying UX issues and proposing design recommendations.</li>
-                            <li>Redesigned the portal to provide customized user experience to health care professionals with advanced features.</li>
-                            <li> Redesiging web application that provides intelligent clinical decision support.</li> 
-                            <li> Created Style tiles and design thinking sessions to gather user requirements.</li>
+                            <li>Redesigned the portal to provide customized user experience to health care professionals with advanced features.</li>  
                             <li> Designed for Accessisilibility, WCAG Compliant by following WCAG 2.0 and WCAG 2.1 A & AA.</li>
                         </ul>
                     </div>
@@ -71,17 +71,17 @@ const Work = () => {
 
                 </div>
                 <div className='project-card-left'>
-                    <div className='image'>
+                    {/* <div className='image'>
                         <img src="https://i.postimg.cc/Kzzx26yz/Image-2x.jpg" className='projimg'
                         alt="header"/>
-                    </div>
-                    <h2 className='left-h2'>Electronic Platform for Cancer</h2>
+                    </div> */}
+                    <h3 className='left-h2'>Web Platform for Cancer</h3>
+                    <h5>City of Hope</h5>
                     <p className='p-date'>Use Case: UX , UI, Branding, Leadership</p>
                     <div className='p-text'>
                         <ul>
                             <li> Evaluated current branding and company details to create new style guides and present alternative style tiles. </li>
                             <li> Improved end-to-end experience of Guardian Life Insurance Internal Platform by conducting usability reviews, identifying UX issues and proposing design recommendations.</li>
-                            <li> Redesigned the portal to provide customized user experience to health care professionals with advanced features. </li>
                             <li>Design for Accessibility and following WCAG 2.O and WCAG 2.1 accessibility guidelines for making the web app accessible for all types of users. </li>
                         </ul>
                     </div>

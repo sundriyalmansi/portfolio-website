@@ -1,3 +1,13 @@
+.header-wraper{
+    position: relative;
+    background-color: #fff;
+    /* background-image: url(/src/Images/bgideas3.jpg); */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    padding: 0rem 5rem;
+}
+
 .typed-css {
     font-size: 3rem;
     display : inline-block;
@@ -74,4 +84,8 @@
     font-size: 22px;
     color: #1e1e1e;
     text-decoration: none;
+  }
+
+  .intro-paragragh{
+    max-width: 800px;
   }

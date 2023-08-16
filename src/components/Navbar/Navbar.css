@@ -23,3 +23,6 @@
     font-family: 'Poppins', sans-serif;
 
   }
+  .menuitem ul li a {
+    font-weight: 700;
+  }

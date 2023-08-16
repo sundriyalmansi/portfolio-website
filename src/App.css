@@ -62,14 +62,7 @@ body{
 .menuitem{
   justify-content: flex-end;
 }
-.header-wraper{
-  position: relative;
-  background-color: #fff;
-  /* background-image: url(/src/Images/bgideas3.jpg); */
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-}
+
 .main-info{
   display: flex;
   flex-direction: column;

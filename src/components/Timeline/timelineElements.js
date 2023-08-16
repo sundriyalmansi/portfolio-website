@@ -1,6 +1,16 @@
 let timelineElements = [
-    {
-      id: 1,
+      {
+        id: 1,
+        title: "Software Developer - UX Engineer",
+        location: "DISH Wireless, Plano,Texas",
+        description:
+          "Stayed current with 5G technology trends and industry developments, incorporating relevant advancements into the platform to enhance its capabilities and competitiveness.Conducted thorough testing and debugging to identify and resolve issues, ensuring a stable and reliable platform for managing a large number of 5G devices.",
+        buttonText: "View Projects",
+        date: "February 2019 - present",
+        icon: "work",
+      },
+      {
+      id: 2,
       title: "User Interface Developer & Designer",
       location: "DXC Technologies, New Orleans, LA",
       description:
@@ -10,7 +20,7 @@ let timelineElements = [
       icon: "work",
     },
     {
-      id: 2,
+      id: 3,
       title: "Teaching Assistant",
       location: "University of North Texas, Denton, TX",
       description:
@@ -19,7 +29,7 @@ let timelineElements = [
       icon: "work",
     },
     {
-      id: 3,
+      id: 4,
       title: "Front - End Developer",
       location: "Internship, Hollywood Multimedia",
       description:
