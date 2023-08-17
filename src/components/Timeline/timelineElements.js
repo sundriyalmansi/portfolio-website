@@ -6,7 +6,7 @@ let timelineElements = [
         description:
           "Stayed current with 5G technology trends and industry developments, incorporating relevant advancements into the platform to enhance its capabilities and competitiveness.Conducted thorough testing and debugging to identify and resolve issues, ensuring a stable and reliable platform for managing a large number of 5G devices.",
         buttonText: "View Projects",
-        date: "February 2019 - present",
+        date: "January 2023 - present",
         icon: "work",
       },
       {
@@ -16,7 +16,7 @@ let timelineElements = [
       description:
         "Design, Develop and maitain both new and existing code ranging from client-side development using JavaScript, Bootstrap, HTML, Pug & CSS to server-side code using NodeJs and ExpressJS, Web API.Creating the logic to make the application function properly, and accomplishing this through the use of server-side scripting languages.",
       buttonText: "View Projects",
-      date: "February 2019 - present",
+      date: "February 2019 - Jan 2023",
       icon: "work",
     },
     {
