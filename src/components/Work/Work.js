@@ -8,6 +8,25 @@ const Work = () => {
             <hr className="hr-border"></hr>
             <h1 className="projectTitle">Projects</h1>
             <div className='container projectscontainer'>
+            <div className='project-card-left'>
+                    <div className='image'>
+                        {/* <img src={logo} className='projimg'
+                        alt="header"/> */}
+                    </div>
+                    <h4 className='left-h2'>Plasma</h4>
+                    <h5>Product LifeCycle Management tool</h5>
+                    <div className='p-text'>
+                        <ul>
+                            <li>Transalted business requirement to front end solutions for device certificaion of telecommunication industry.</li>
+                            <li>Designed Dashboard for leadership to provide business intelligence.</li> 
+                            <li>Maintained and redesigned web apps , mobile apps ( iOS & android )</li>
+                        </ul>
+                    </div>
+                    {/* <div className='card-footer-btn'>
+                        <a href='https://www.figma.com/proto/PJ3loLlD1bcbBsWqn9ecJf/MV-Design-Case-Study?page-id=0%3A1&node-id=2%3A3&viewport=241%2C48%2C0.71&scaling=scale-down-width' className='firstbtn'>Read case study</a>
+                    </div> */}
+
+                </div>
                 <div className='project-card-left'>
                     <div className='image'>
                         {/* <img src={logo} className='projimg'
@@ -15,7 +34,6 @@ const Work = () => {
                     </div>
                     <h4 className='left-h2'>CommonPaths</h4>
                     <h5>GIS Application for Transportation Company</h5>
-                    <p className='p-date'>Use Case: UX , UI, Branding, Leadership</p>
                     <div className='p-text'>
                         <ul>
                             <li>Synthesized user insights into feasible design decisions, deployed a MVP within 6 months.</li>
@@ -35,7 +53,6 @@ const Work = () => {
                     </div>
                     <h3 className='left-h2'>Demand Decision Management</h3>
                     <h5>DXC Corporate App</h5>
-                    <p className='p-date'>Use Case: UX , UI, Branding, Leadership</p>
                     <div className='p-text'>
                         <ul>
                         <li>Designed application to streamline resourcing pipeline process for higher leadership of DXC generating in $1M of profit each quarter.</li>
@@ -57,7 +74,6 @@ const Work = () => {
                     </div>
                     <h3 className='left-h2'>Health Care Application Redesign</h3>
                     <h5>MG Guidelines</h5>
-                    <p className='p-date'>Use Case: UX , UI, Branding, Leadership</p>
                     <div className='p-text'>
                         <ul>
                             <li>Improved end-to-end experience of Guardian Life Insurance Internal Platform by conducting usability reviews, identifying UX issues and proposing design recommendations.</li>
@@ -77,7 +93,6 @@ const Work = () => {
                     </div> */}
                     <h3 className='left-h2'>Web Platform for Cancer</h3>
                     <h5>City of Hope</h5>
-                    <p className='p-date'>Use Case: UX , UI, Branding, Leadership</p>
                     <div className='p-text'>
                         <ul>
                             <li> Evaluated current branding and company details to create new style guides and present alternative style tiles. </li>
