@@ -1,7 +1,7 @@
 .header-wraper{
     position: relative;
     background-color: #fff;
-    /* background-image: url(/src/Images/bgideas3.jpg); */
+    /* background-image: url(/src/Images/g.jpg); */
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -88,4 +88,16 @@
 
   .intro-paragragh{
     max-width: 800px;
+  }
+
+  .award-banner {
+    position: absolute;
+    background: linear-gradient(to top, #c471f5 0%, #fa71cd 100%);;
+    padding: 10px;
+    margin-right: 1px;
+    font-size: 1rem;
+    top: 30vh;
+    left: 65vw;
+    font-weight: 600;
+    width: 45%;
   }

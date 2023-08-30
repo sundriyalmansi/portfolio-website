@@ -3,6 +3,7 @@ import './Work.css';
 
 const Work = () => {
     return (
+        
         <div className="skillsSection" id="work">
             <div className="margintop"></div>
             <hr className="hr-border"></hr>
