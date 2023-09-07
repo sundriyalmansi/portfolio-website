@@ -63,23 +63,6 @@ body{
   justify-content: flex-end;
 }
 
-.main-info{
-  display: flex;
-  flex-direction: column;
-  justify-content: left;
-  align-items: left;
-  text-align: left;
-  padding: 2em;
-  z-index: 1;
-}
-.vertical-center {
-  margin-left: 4rem;
-  position: absolute;
-  top: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-}
-
 
 .typed-text{
   font-size: 5rem;

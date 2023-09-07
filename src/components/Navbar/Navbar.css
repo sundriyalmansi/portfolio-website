@@ -1,28 +1,53 @@
-.nav a .nav-link{
-    letter-spacing: 0.03rem;
-    cursor: pointer;
-  }
-  nav ul li{
-    text-transform: uppercase;
-  }
-  .navbar {
-    width: 100%;
-    position: fixed!important;
-    z-index: 2;
-  }
-  .navbar-nav > li > a {
-    margin-right: 0.75rem;
-    margin-left: 0.75rem;
-    color: black !important;
-    font-size: 1.1em;
-    font-weight: 500;
-  }
-  
-  .navbar {
-    background-color: #fff!important;
-    font-family: 'Poppins', sans-serif;
+.nav a .nav-link {
+  letter-spacing: 0.03rem;
+  cursor: pointer;
+}
 
-  }
-  .menuitem ul li a {
-    font-weight: 700;
-  }
+
+nav ul li {
+  text-transform: uppercase;
+}
+
+
+.navbar {
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  z-index: 2;
+  backdrop-filter: blur(10px);
+  background-color: rgba(211, 211, 211, .34);
+}
+
+
+.navbar-nav>li>a {
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+  color: black !important;
+  font-size: 1.1em;
+  font-weight: 500;
+}
+
+
+.menuitem ul li a {
+  font-weight: 700;
+}
+
+
+.award-banner {
+  padding: 10px;
+  background-color: black;
+  text-align: center;
+}
+
+
+.award-banner a {
+  color: lightgray;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 1s;
+}
+
+
+.award-banner a:hover {
+  color: pink;
+  font-size: 1.1em;
+}

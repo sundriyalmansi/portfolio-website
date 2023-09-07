@@ -1,103 +1,176 @@
 .header-wraper{
-    position: relative;
-    background-color: #fff;
-    /* background-image: url(/src/Images/g.jpg); */
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    padding: 0rem 5rem;
-}
-
-.typed-css {
-    font-size: 3rem;
-    display : inline-block;
-    font-weight: 600;
-}
-.hand{
-    width: 2.2rem;
-}
-.orange{
-    color: #F48C51;
-}
-
-.socialmedialinks{
-    margin: 2rem 0rem;
-}
-
-.downloadcv{
-    border: 1px solid #1e1e1e !important;
-    text-transform: uppercase;
-    border-radius: 0%;
-    padding: 0.5rem;
-    color: #1e1e1e !important;
-    font-size: 0.8rem;
-    margin-top: 2rem;
-    z-index: 3;
-    min-width: 200px;
-    max-width: 200px;
-    text-align: center;
-    font-weight: 600;
-    line-height: 21px;
-    height: 42px;
+  position: relative;
+  /* background: linear-gradient(180deg,#FFF 0%, rgba(255, 255, 255, 0.00) 100%); */
+  background-image: linear-gradient(to right, #d3cce3, #e9e4f0);
+  /* background-image: url(/src/Images/g.jpg); */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  padding: 0rem 5rem;
   }
+  
+  
+  .typed-css {
+  font-size: 3rem;
+  display : inline-block;
+  font-weight: 600;
+  }
+  
+  
+  .hand{
+  width: 2.2rem;
+  }
+  
+  
+  .orange{
+  color: #F48C51;
+  }
+  
+  
+  .socialmedialinks{
+  width: 90px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  left: auto;
+  right: 0%;
+  }
+  
+  
+  .social-media-icons {
+  width: 20px;
+  height: 20px;
+  margin-bottom: 40px;
+  }
+  
+  
+  .social-media-icons.linkedin {
+  filter: invert(70%);
+  background-image: url(/src/Images/linkedin.svg);
+  background-position: 50%;
+  background-size: cover;
+  }
+  
+  
+  .social-media-icons.github {
+  background-image: url(/src/Images/github.svg);
+  background-position: 50%;
+  background-size: cover;
+  }
+  
+  
+  .social-media-icons.caseStudies {
+  background-image: url(/src/Images/case_studies.svg);
+  background-position: 50%;
+  background-size: cover;
+  }
+  
+  
+  
+  
+  .downloadcv{
+  border: 1px solid #1e1e1e !important;
+  text-transform: uppercase;
+  border-radius: 0%;
+  padding: 0.5rem;
+  color: #1e1e1e !important;
+  font-size: 0.8rem;
+  margin-top: 2rem;
+  z-index: 3;
+  min-width: 200px;
+  max-width: 200px;
+  text-align: center;
+  font-weight: 600;
+  line-height: 21px;
+  height: 42px;
+  }
+  
+  
   .downloadcv:hover{
-    background-color: #DD485C !important;
-    border: 1px solid #DD485C !important;
-    color: #ffff !important;
+  background-color: #DD485C !important;
+  border: 1px solid #DD485C !important;
+  color: #ffff !important;
+  
   
   }
-.desc{
-    font-weight: 700;
-    line-height: 2rem;
-}
-.ul-css {
-    white-space: nowrap;
-    height: 1em;
-    width: 100%;
-    padding-left: 0px;
-}
-
-.ul-css li {
-    display: inline;
-    padding: 10px 25px 10px 0px;
-    font-weight: 600;
-
-}
-/* .ul-css li a{
-    color: #0044cc;
-} */
-.linksocial {
-    text-transform: none !important;
-}
-
-.linksocial a{
-    cursor: pointer;
-    z-index: 4;
-    font-size: 22px;
-    color: #1e1e1e;
-    text-decoration: none;
+  
+  
+  .desc{
+  font-weight: 700;
+  line-height: 2rem;
   }
+  
+  
+  .ul-css {
+  white-space: nowrap;
+  height: 1em;
+  width: 100%;
+  padding-left: 0px;
+  }
+  
+  
+  .ul-css li {
+  display: inline;
+  padding: 10px 25px 10px 0px;
+  font-weight: 600;
+  
+  
+  }
+  
+  
+  
+  
+  .linksocial {
+  text-transform: none !important;
+  }
+  
+  
+  .linksocial a{
+  cursor: pointer;
+  z-index: 4;
+  font-size: 22px;
+  color: #1e1e1e;
+  text-decoration: none;
+  }
+  
+  
+  
+  
   .linksocial a:hover{
-    border-bottom: 3px solid #DD485C; 
-    cursor: pointer;
-    z-index: 4;
-    font-size: 22px;
-    color: #1e1e1e;
-    text-decoration: none;
+  border-bottom: 3px solid #DD485C;
+  cursor: pointer;
+  z-index: 4;
+  font-size: 22px;
+  color: #1e1e1e;
+  text-decoration: none;
   }
-
+  
+  
   .intro-paragragh{
-    max-width: 800px;
+  max-width: 800px;
   }
-
-  .award-banner {
-    position: absolute;
-    background: linear-gradient(to top, #c471f5 0%, #fa71cd 100%);;
-    padding: 10px;
-    margin-right: 1px;
-    font-size: 1rem;
-    top: 30vh;
-    left: 65vw;
-    font-weight: 600;
-    width: 45%;
+  
+  .main-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+  text-align: left;
+  padding: 2em;
+  z-index: 1;
   }
+  
+  
+  .vertical-center {
+  margin-left: 4rem;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  }
+  
+  
