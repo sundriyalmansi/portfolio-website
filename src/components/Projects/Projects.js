@@ -8,10 +8,10 @@ const Projects = () => {
             <h1 className="title-proj">Projects</h1>
             <div className="row div-width">
                 {/* ------------------------ */}
-            <div id="works-grid" className="w-layout-grid works-grid" sx="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
+            {/* <div id="works-grid" className="w-layout-grid works-grid" sx="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
                 <img src="https://uploads-ssl.webflow.com/6059528f6310c802ec3f8e00/61f08473cdc8a164bc22cecb_Frame%2082k.png" loading="lazy" srcset="https://uploads-ssl.webflow.com/6059528f6310c802ec3f8e00/61f08473cdc8a164bc22cecb_Frame%2082k-p-500.png 500w, https://uploads-ssl.webflow.com/6059528f6310c802ec3f8e00/61f08473cdc8a164bc22cecb_Frame%2082k.png 842w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 94vw, (max-width: 991px) 535.1640625px, 842px" alt="Homepage of groove app" class="image-18" />
                     <div id="block" class="div-block-5">
-                        <a href="/work/groove" class="project-name-link"><strong>StudyStream</strong><br/></a><div class="work-description"><div class="paragraph-light project-home"><strong>UX/UI Design<br/></strong>Redesigning StudyStream's website </div></div><a href="/work/studystream" class="cta w-button">View Project</a></div></div>
+                        <a href="/work/groove" class="project-name-link"><strong>StudyStream</strong><br/></a><div class="work-description"><div class="paragraph-light project-home"><strong>UX/UI Design<br/></strong>Redesigning StudyStream's website </div></div><a href="/work/studystream" class="cta w-button">View Project</a></div></div> */}
             {/* ------------------------ */}
                 <div className="col-sm-6 mb-4">
                     <div className="card flip_card_container">
