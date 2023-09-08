@@ -3,6 +3,7 @@ import Typed from "typed.js";
 import './Header.css';
 import { useEffect, useRef } from "react";
 import Resume from '../Header/MS_UXD.pdf';
+import arrow from '../Header/arrow.svg';
 
 
 const Header = () => {
@@ -36,7 +37,7 @@ const Header = () => {
         <a target="_blank" rel="noreferrer" href="https://www.figma.com/proto/ZxJyGeMCFJAOAYQrFBsbDK/Mansi-UXD-Portfolio?page-id=0%3A1&node-id=0%3A4&viewport=241%2C48%2C0.42&scaling=min-zoom">C</a> */}
         <a href="https://www.linkedin.com/in/sundriyalm/" target="_blank" rel="noreferrer" class="sociallink w-inline-block"><div class="social-media-icons linkedin"></div></a>
         <a href="https://github.com/sundriyalmansi/" target="_blank" rel="noreferrer" class="sociallink w-inline-block"><div class="social-media-icons github"></div></a>
-        <a target="_blank" rel="noreferrer" href="https://www.figma.com/proto/ZxJyGeMCFJAOAYQrFBsbDK/Mansi-UXD-Portfolio?page-id=0%3A1&node-id=0%3A4&viewport=241%2C48%2C0.42&scaling=min-zoom"><div class="social-media-icons caseStudies"></div></a>
+        <a target="_blank" rel="noreferrer" class="sociallink w-inline-block" href="https://www.figma.com/proto/ZxJyGeMCFJAOAYQrFBsbDK/Mansi-UXD-Portfolio?page-id=0%3A1&node-id=0%3A4&viewport=241%2C48%2C0.42&scaling=min-zoom"><div class="social-media-icons caseStudies"></div></a>
       </div>
       <div className="main-info vertical-center">
         {/* <div className="award-banner">🏆 Featured Award winning Product</div> */}
@@ -47,15 +48,14 @@ const Header = () => {
         </div>
         <p></p>
         <div className="intro-paragragh">
-          <h5 className="desc">I have an eye for <span className="orange">innovation</span>, <span className="orange">problem solving</span> and developing amazing user experiences which makes customers and users satisfied when they are using products.
-            <p className="mt-3">I'm currently completing the Google UX Design Professional Certificate
+          <h5 className="desc">I have an eye for <span className="orange">innovation</span>, <span className="orange">problem solving</span> and <span className="orange">developing</span> amazing user experiences which makes customers and users satisfied when they are using products.
+            <p className="mt-3">I'm currently designing Awesome apps for <span className="orange">DISH Wireless</span>.
             </p>
           </h5>
         </div>
-        <div>
-          <a className="btn btn-outline-primary downloadcv nav-link " href={Resume} download="Mansi_Resume">Download Resume</a>
-        </div>
+          <a className="downloadcv" href={Resume} download="Mansi_Resume">Download Resume</a>
       </div>
+      <div class="arrow"><a href="#skillspage" class="w-inline-block"><img src={arrow} loading="lazy" width="73" alt="" class="image-119 project-adj" /></a></div>
     </div>
   )
 }

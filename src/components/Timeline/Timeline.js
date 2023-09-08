@@ -1,6 +1,6 @@
 import React from 'react'
 import './Timeline.css'
-import workIcon from './work.png'
+import workIcon from './work1.png'
 import timelineElements from "./timelineElements";
 import {
     VerticalTimeline,

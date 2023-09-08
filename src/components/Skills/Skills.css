@@ -107,8 +107,8 @@
 .skillsSection {
     /* background: linear-gradient(rgba(0,0,0,.99),rgba(0,0,0,.6)),url(/src/Images/code&coffee.jpeg) no-repeat 50%;
     background-size: cover;
-    background-attachment: fixed;
-    padding-top: 6em; */
+    background-attachment: fixed;*/
+    padding-top: 0.1em; 
 }
 
 .paddingTop {

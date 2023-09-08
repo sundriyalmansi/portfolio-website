@@ -1,7 +1,7 @@
 .div-projects {
     width: 100%;
     background-color: #131414;
-
+    padding-top: 3em; 
 }
 
 hr {
@@ -160,26 +160,71 @@ hr {
     align-items: center;
 }
 
-.downloadcv {
-    border: 1px solid #1e1e1e !important;
-    text-transform: uppercase;
-    border-radius: 0%;
-    padding: 0.5rem;
-    color: #1e1e1e !important;
-    font-size: 0.8rem;
-    margin-top: 2rem;
-    z-index: 3;
-    min-width: 200px;
-    max-width: 200px;
-    text-align: center;
-    font-weight: 600;
-    line-height: 21px;
-    height: 42px;
+.works-grid {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    max-width: 1200px;
+    border-radius: 10px;
 }
 
-.downloadcv:hover {
-    background-color: #DD485C !important;
-    border: 1px solid #DD485C !important;
-    color: #ffff !important;
+.image-18 {
+    height: 100%;
+    border-radius: 10px 0px 0px 10px;
+    width: 50%;
+    -webkit-perspective: none;
+    perspective: none;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
 
+
+.div-block-5 {
+    width: 100%;
+    padding: 35px;
+    background-color: #fafafa;
+    border-radius: 0px 10px 10px 0px;
+
+}
+
+.w-button {
+    display: inline-block;
+    border: 0;
+    line-height: inherit;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.cta {
+    margin-top: 40px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #3c055a;
+    color: #fff;
+}
+
+.project-name-link {
+    margin-bottom: 5px;
+    font-size: 20px;
+    line-height: 34px;
+    font-weight: 400;
+    text-decoration: none;
+    display: block;
+    -webkit-transition: opacity 200ms ease;
+    transition: opacity 200ms ease;
+    color: #1a1b1f;
+}
+
+.paragraph-light.project-home {
+    margin-top: 0px;
+}
+
+.paragraph-light {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    border: 1px none #000;
+    background-color: transparent;
+    opacity: 0.6;
+    color: #1a1b1f;
+    text-align: left;
 }
