@@ -228,3 +228,110 @@ hr {
     color: #1a1b1f;
     text-align: left;
 }
+
+
+.wide-case-study-panel {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: hsla(0, 0%, 100%, 0.05);
+    padding-left: 0;
+    border-radius: 10px;
+    margin-bottom: 3em;
+    transition: opacity 0.4s;
+}
+
+.wide-case-study-panel:hover {
+    opacity: 0.9;
+}
+
+.proj_img{
+ width: 100%;
+ border-radius: 10px 0px 0px 10px;
+ height: 100%;
+}
+
+.link-block {
+    flex-grow: 2;
+}
+
+.panel-body {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    width: 40%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 36px;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    align-content: center;
+    flex: 1 0 auto;
+}
+
+.wide-case-study-panel-link-copy {
+    padding-top: 36px;
+    border-top: 1px solid hsla(0, 0%, 100%, 0.1);
+    cursor: pointer;
+
+}
+
+.arrow_img {
+    width: 3em;
+    display: inline-block;
+}
+
+.w-inline-block {
+    display: inline-block;
+}
+
+.text-block-3 {
+    font-size: 20px;
+    width: 50%;
+    color: #ffffff;
+    font-family: Inter, sans-serif;
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.row.row-justify-between {
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.wide-case-study-panel-link-copy {
+    text-decoration: none;
+}
+
+.card-heading {
+    color: #fff;
+    font-size: 1.25em;
+    line-height: 1.4em;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+}
+
+.link-block-5 {
+    text-decoration: none;
+}
+
+.case-study-panel-logo {
+    margin-bottom: 36px;
+    opacity: 0.5;
+    color: #000;
+
+}
+
+.project-summary {
+    color: #ffffff;
+    opacity: 0.5;
+}
+
+.rounded-circle {
+    background-color: #ffffff;
+}
