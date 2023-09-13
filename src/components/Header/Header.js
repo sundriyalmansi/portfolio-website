@@ -35,9 +35,9 @@ const Header = () => {
       <div className="socialmedialinks home">
         {/* <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/sundriyalm/">L</a>
         <a target="_blank" rel="noreferrer" href="https://www.figma.com/proto/ZxJyGeMCFJAOAYQrFBsbDK/Mansi-UXD-Portfolio?page-id=0%3A1&node-id=0%3A4&viewport=241%2C48%2C0.42&scaling=min-zoom">C</a> */}
-        <a href="https://www.linkedin.com/in/sundriyalm/" target="_blank" rel="noreferrer" class="sociallink w-inline-block"><div class="social-media-icons linkedin"></div></a>
-        <a href="https://github.com/sundriyalmansi/" target="_blank" rel="noreferrer" class="sociallink w-inline-block"><div class="social-media-icons github"></div></a>
-        <a target="_blank" rel="noreferrer" class="sociallink w-inline-block" href="https://www.figma.com/proto/ZxJyGeMCFJAOAYQrFBsbDK/Mansi-UXD-Portfolio?page-id=0%3A1&node-id=0%3A4&viewport=241%2C48%2C0.42&scaling=min-zoom"><div class="social-media-icons caseStudies"></div></a>
+        <a title = "Linkedin" href="https://www.linkedin.com/in/sundriyalm/" target="_blank" rel="noreferrer" class="sociallink w-inline-block"><div class="social-media-icons linkedin"></div></a>
+        <a title = "GitHub" href="https://github.com/sundriyalmansi/" target="_blank" rel="noreferrer" class="sociallink w-inline-block"><div class="social-media-icons github"></div></a>
+        <a title = "Case Studies" target="_blank" rel="noreferrer" class="sociallink w-inline-block" href="https://www.figma.com/proto/ZxJyGeMCFJAOAYQrFBsbDK/Mansi-UXD-Portfolio?page-id=0%3A1&node-id=0%3A4&viewport=241%2C48%2C0.42&scaling=min-zoom"><div class="social-media-icons caseStudies"></div></a>
       </div>
       <div className="main-info vertical-center">
         {/* <div className="award-banner">🏆 Featured Award winning Product</div> */}

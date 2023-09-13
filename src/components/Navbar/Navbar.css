@@ -3,6 +3,15 @@
   cursor: pointer;
 }
 
+.nav-link {
+  border-top: 2px solid transparent;
+}
+
+.nav-link:hover, .nav-link:active{
+  border-top: 2px solid grey;
+  color: grey;
+}
+
 
 nav ul li {
   text-transform: uppercase;
@@ -21,7 +30,7 @@ nav ul li {
 .navbar-nav>li>a {
   margin-right: 0.75rem;
   margin-left: 0.75rem;
-  color: black !important;
+  color: black;
   font-size: 1em;
   font-weight: 500;
 }
