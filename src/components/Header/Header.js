@@ -49,7 +49,7 @@ const Header = () => {
         <p></p>
         <div className="intro-paragragh">
           <p className="desc">I have an eye for <span className="orange">innovation</span>, <span className="orange">problem solving</span> and <span className="orange">developing</span> amazing user experiences. I am passionately working towards combining front end engineering with UX principles.
-            I'm currently designing Awesome apps for <span className="orange">DISH Wireless</span>.
+            Currently crafting Awesome apps for <span className="orange">DISH Wireless</span> within the AI domain.
           </p>
         </div>
           <a className="downloadcv" href={Resume} download="Mansi_Resume">Download Resume</a>

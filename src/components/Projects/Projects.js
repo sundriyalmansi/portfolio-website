@@ -65,7 +65,7 @@ const Projects = () => {
                                 <li>Delivered modular components implementing DISH Design System.</li>
                             </ul>
                         </div>
-                        <a href="https://www.figma.com/proto/PJ3loLlD1bcbBsWqn9ecJf/Case-Studies?embed_host=share&kind=&node-id=1138-19&page-id=1138%3A18&scaling=min-zoom&t=ZhjfHUaGdhxTK5Iv-1&type=design&viewport=431%2C619%2C0.06" target="_blank" rel="noreferrer" className="wide-case-study-panel-link-copy w-inline-block">
+                        <a href="https://www.figma.com/proto/PJ3loLlD1bcbBsWqn9ecJf/Case-Studies?page-id=1138%3A18&type=design&node-id=1138-19&viewport=372%2C1717%2C0.2&t=FCtSKUDlbrFBtIwj-1&scaling=scale-down-width&mode=design" target="_blank" rel="noreferrer" className="wide-case-study-panel-link-copy w-inline-block">
                             <div className="row row-justify-between">
                                 <div className="text-block-3">View Client Story</div>   
                                 <img className='arrow_img' src="https://uploads-ssl.webflow.com/5f0f048c4a53257cc3f296f9/5f0f048d8828dd0130a4f56f_icon-chevron-right.svg" alt="" />
