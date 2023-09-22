@@ -44,18 +44,17 @@ const Header = () => {
         </div>
         <div className="main-info vertical-center">
           {/* <div className="award-banner">🏆 Featured Award winning Product</div> */}
-          <h1>Hi, I am Mansi <img src="https://img.icons8.com/emoji/24/000000/waving-hand-emoji.png" className="hand" alt="project" /></h1>
+          <h3>Hi, I am Mansi <img src="https://img.icons8.com/emoji/24/000000/waving-hand-emoji.png" className="hand" alt="project" /></h3>
           <p></p>
           <div className="typed-css">
             <span ref={el} className="typed-css"></span>
           </div>
           <p></p>
           <div className="intro-paragragh">
-            <h5 className="desc">I have an eye for <span className="orange">innovation</span>, <span className="orange">problem solving</span> and <span className="orange">developing</span> amazing user experiences which makes customers and users satisfied when they are using products.
-              <p className="mt-3">I'm currently designing Awesome apps for <span className="orange">DISH Wireless</span>.
-              </p>
-            </h5>
-          </div>
+            <p className="desc">I have an eye for <span className="orange">innovation</span>, <span className="orange">problem solving</span> and <span className="orange">developing</span> amazing user experiences. I am passionately working towards combining front end engineering with UX principles.
+              Currently crafting Awesome apps for <span className="orange">DISH Wireless</span> within the AI domain.
+            </p>
+            </div>
             <a className="downloadcv" href={Resume} download="Mansi_Resume">Download Resume</a>
         </div>
         <div class="arrow"><a href="#skillspage" class="w-inline-block"><img src={arrow} loading="lazy" width="73" alt="" class="image-119 project-adj" /></a></div>
