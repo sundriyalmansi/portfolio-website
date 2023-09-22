@@ -90,7 +90,7 @@ export const heroOptions = {
         duration: 0.4,
         size: 20,
         color: {
-          value: "#ffffff",
+          value: "#a9a9a9",
         },
         opacity: 0.5,
         mix: false,
@@ -107,7 +107,7 @@ export const heroOptions = {
 
   particles: {
     color: {
-      value: "#a9a9a9",
+      value: "#878787",
     },
     links: {
       color: "transparent",
