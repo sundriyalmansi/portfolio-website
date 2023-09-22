@@ -12,7 +12,7 @@ const Navbar = () => {
         <div className="nav-container fixed-top">
             <div className="award-banner"><a href="https://www.metro-magazine.com/10154991/king-county-metro-mv-transportation-wins-innovative-solution-award-for-accessibi"> 🥳 Featured Award winning Product </a></div>
             <nav className="navbar navbar-expand-lg navbar-light customNav">
-                <a className="abcd" href="#homepage"><img alt='mlogo' src={logo}></img> Mansi</a>
+                <a className="MyLogo" href="#homepage"><img alt='mlogo' src={logo}></img> Mansi</a>
                 <div className="container-fluid">
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <FontAwesomeIcon icon={faBars} style={{ color: "white" }} />

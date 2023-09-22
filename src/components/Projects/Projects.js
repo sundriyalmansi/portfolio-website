@@ -100,9 +100,6 @@ const Projects = () => {
                                     <span class="iconify ic" data-icon="devicon:vuejs" data-inline="false"></span>
                                 </div>
                                 <div className="icon icon-lg icon-shape shadow rounded-circle">
-                                    <span class="iconify ic" data-icon="logos:bootstrap" data-inline="false"></span>
-                                </div>
-                                <div className="icon icon-lg icon-shape shadow rounded-circle">
                                     <span class="iconify ic" data-icon="logos:html-5" data-inline="false"></span>
                                 </div>
                                 <div className="icon icon-lg icon-shape shadow rounded-circle">

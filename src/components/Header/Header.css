@@ -9,7 +9,7 @@
   background-size: cover;
   background-position: center;
   height: 100vh;
-  padding: 0rem 5rem;
+  z-index: 1;
 }
 
 
@@ -261,5 +261,4 @@
   .arrow {
     display: none;
   }
-  }
-  
+}
