@@ -86,8 +86,8 @@ export const heroOptions = {
         distance: 100,
       },
       bubble: {
-        distance: 50,
-        duration: 0.4,
+        distance: 150,
+        duration: 2,
         size: 20,
         color: {
           value: "#a9a9a9",
@@ -102,10 +102,17 @@ export const heroOptions = {
         speed: 1,
         maxSpeed: 50,
       },
+      grab: {
+        distance: 200,
+      }
     },
   },
 
   particles: {
+    collisions: {
+      enable: true,
+      mode: "bounce",
+    },
     color: {
       value: "#878787",
     },
@@ -131,6 +138,7 @@ export const heroOptions = {
         enable: true,
         area: 800,
       },
+      limit: 0,
       value: 80,
     },
     opacity: {
@@ -138,9 +146,31 @@ export const heroOptions = {
     },
     shape: {
       type: "circle",
+      character: [
+        {
+          fill: true,
+          font: "Font Awesome 6 Brands",
+          style: "",
+          value: ["\uf13b"],
+          weight: "900",
+        },
+      ]
     },
     size: {
-      value: { min: 2, max: 5 },
+      random: {
+        enable: true,
+        minimumValue: 10,
+        maxValue: 15,
+      },
+      animation: {
+        count: 0,
+        enable: true,
+        speed: 0.2,
+        decay: 0,
+        sync: true,
+        destroy: "none",
+        startValue: "random",
+      },
     },
   },
   pauseOnBlur: true,

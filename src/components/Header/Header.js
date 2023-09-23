@@ -36,7 +36,7 @@ const Header = () => {
         id="hero-particles"
         className=""
         particlesOptions={heroOptions}
-      />
+      ></ParticlesComponent>
         <div className="socialmedialinks home">
           <a title = "Linkedin" href="https://www.linkedin.com/in/sundriyalm/" target="_blank" rel="noreferrer" class="sociallink w-inline-block"><div class="social-media-icons linkedin"></div></a>
           <a title = "GitHub" href="https://github.com/sundriyalmansi/" target="_blank" rel="noreferrer" class="sociallink w-inline-block"><div class="social-media-icons github"></div></a>
@@ -55,9 +55,10 @@ const Header = () => {
               Currently crafting Awesome apps for <span className="orange">DISH Wireless</span> within the AI domain.
             </p>
             </div>
-            <a className="downloadcv" href={Resume} download="Mansi_Resume">Download Resume</a>
         </div>
-        <div class="arrow"><a href="#skillspage" class="w-inline-block"><img src={arrow} loading="lazy" width="73" alt="" class="image-119 project-adj" /></a></div>
+        <div class="arrow">
+          <a className="downloadcv" href={Resume} download="Mansi_Resume">Download Resume</a>
+          <a href="#skillspage" class="w-inline-block"><img src={arrow} loading="lazy" width="73" alt="" class="image-119 project-adj" /></a></div>
     </div>
   )
 }

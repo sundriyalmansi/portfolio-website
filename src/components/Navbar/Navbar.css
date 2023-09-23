@@ -9,7 +9,7 @@
 
 .nav-link:hover, .nav-link:active{
   border-top: 2px solid grey;
-  color: grey;
+  color: #555555;
 }
 
 
