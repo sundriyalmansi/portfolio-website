@@ -232,9 +232,9 @@
 
 .vertical-center {
   position: absolute;
-  top: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
+  top: 44%;
+  -ms-transform: translateY(-44%);
+  transform: translateY(-44%);
 }
 
 .arrow {
