@@ -114,7 +114,7 @@ export const heroOptions = {
       mode: "bounce",
     },
     color: {
-      value: "#878787",
+      value: "#a9a9a9",
     },
     links: {
       color: "transparent",
@@ -139,7 +139,7 @@ export const heroOptions = {
         area: 800,
       },
       limit: 0,
-      value: 80,
+      value: 30,
     },
     opacity: {
       value: 0.5,
@@ -159,8 +159,8 @@ export const heroOptions = {
     size: {
       random: {
         enable: true,
-        minimumValue: 10,
-        maxValue: 15,
+        minimumValue: 8,
+        maxValue: 10,
       },
       animation: {
         count: 0,
